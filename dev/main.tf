@@ -20,3 +20,10 @@ module "storage_account" {
     source = "../stg"
     storage_account_name = var.storage_account_name
 }
+# farzi addition just to check 
+
+# # module "keyvault" {
+#     depends_on = [ module.rg ]
+#     source = "../kv"
+#     keyvault_name = var.keyvault_name
+# }
